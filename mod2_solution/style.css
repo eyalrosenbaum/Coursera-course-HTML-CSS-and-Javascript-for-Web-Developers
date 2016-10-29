@@ -1,0 +1,109 @@
+* {
+	  box-sizing: border-box;
+	  font-family: cursive;
+	}
+	h1 {
+	  margin-bottom: 15px;
+	}
+
+	#row{
+		width: 100%;
+		padding-top: 60px;
+	}
+
+	#chicken-title{
+	  
+	    background-color: mistyrose;
+	    border: 1px solid black;
+	    
+	}
+
+	#beef-title{
+	    background-color: crimson;
+	    color: white;
+	    border: 1px solid black;
+
+	}
+
+	#sushi-title{
+	    background-color: palegoldenrod;
+	    border: 1px solid black;
+	}
+
+	body{
+		position: relative;
+	}
+
+
+	#menu_title{
+		position: relative;
+	    left: 34%;
+	    margin-bottom: -50px;
+
+	}
+
+	.section-header{
+		position: absolute;
+	    right: 0px;
+    	top: -21px;
+	}
+
+	.section-content{
+		margin: 35px 0px 0px 0px;
+    
+
+
+	}
+
+/*****Large Devices only *****/
+@media (min-width: 992px){
+	.box{
+		background-color: #c0c0c0;
+	    width: 25%;
+	    float: left;
+	    padding: 0% 2% 0% 2%;
+	    border: 1px solid black;
+	    margin: 5% 3% -2% 1%;
+	    position: relative;
+	    box-sizing: border-box;
+	    font-family: cursive;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	.box-md-first{
+		background-color: #c0c0c0;
+	    width: 40%;
+	    float: left;
+	    padding: 0% 2% 0% 2%;
+	    border: 1px solid black;
+	    margin: 5% 3% -2% 1%;
+	    position: relative;
+	    box-sizing: border-box;
+	    font-family: cursive;
+	}
+	.box-md-third{
+		background-color: #c0c0c0;
+	    width: 84%;
+	    float: left;
+	    padding: 0% 2% 0% 2%;
+	    border: 1px solid black;
+	    margin: 5% 3% -2% 1%;
+	    position: relative;
+	    box-sizing: border-box;
+	    font-family: cursive;
+	}
+}
+
+@media (max-width: 767px){
+	.box-sm{
+			background-color: #c0c0c0;
+			width: 84%;
+			padding: 10px;
+	  		border: 1px solid black;
+	  		margin: 50px 10px 50px 10px;
+	  		position: relative;
+	  		box-sizing: border-box;
+	  		font-family: cursive;
+		}
+}
