@@ -3,12 +3,14 @@
 	  font-family: cursive;
 	}
 	h1 {
-	  margin-bottom: 15px;
+	  margin-bottom: -40px;
+	  text-align: center;
 	}
 
 	#row{
 		width: 100%;
-		padding-top: 60px;
+		margin-top: 45px;
+	/**	padding-top: 60px; **/
 	}
 
 	#chicken-title{
@@ -38,12 +40,12 @@
 	}
 
 
-	#menu_title{
+	/**#menu_title{
 		position: relative;
 	    left: 34%;
 	    margin-bottom: -50px;
 
-	}
+	}*/
 
 	.section-header{
 		position: absolute;
@@ -62,11 +64,12 @@
 @media (min-width: 992px){
 	.box{
 		background-color: #c0c0c0;
-	    width: 25%;
+	    width: 32%;
 	    float: left;
 	    padding: 0% 2% 0% 2%;
 	    border: 1px solid black;
-	    margin: 5% 3% -2% 1%;
+	    /**margin: 5% 3% -2% 1%;**/
+	    margin-left: 1%;
 	    position: relative;
 	    box-sizing: border-box;
 	    font-family: cursive;
@@ -76,22 +79,24 @@
 @media (min-width: 768px) and (max-width: 991px){
 	.box-md-first{
 		background-color: #c0c0c0;
-	    width: 40%;
+	    width: 49%;
 	    float: left;
 	    padding: 0% 2% 0% 2%;
 	    border: 1px solid black;
-	    margin: 5% 3% -2% 1%;
+	    /**margin: 5% 3% -2% 1%;**/
+	    margin: 4px;
 	    position: relative;
 	    box-sizing: border-box;
 	    font-family: cursive;
 	}
 	.box-md-third{
 		background-color: #c0c0c0;
-	    width: 84%;
+	    width: 99%;
 	    float: left;
 	    padding: 0% 2% 0% 2%;
 	    border: 1px solid black;
-	    margin: 5% 3% -2% 1%;
+	   /**margin: 5% 3% -2% 1%;**/
+	    margin: 4px;
 	    position: relative;
 	    box-sizing: border-box;
 	    font-family: cursive;
@@ -104,7 +109,9 @@
 			width: 84%;
 			padding: 10px;
 	  		border: 1px solid black;
-	  		margin: 50px 10px 50px 10px;
+	  		/**margin: 5% 3% -2% 1%;**/
+	    	margin-left: 1%;
+	    	margin-bottom: 10px;
 	  		position: relative;
 	  		box-sizing: border-box;
 	  		font-family: cursive;
